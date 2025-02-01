@@ -1,16 +1,12 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
-import { toast } from "sonner";
 
 export const GetStartedButton = () => {
   const navigate = useNavigate();
 
   const handleGetStarted = () => {
-    // For now, we'll show a toast since the registration page isn't built yet
-    toast.info("Registration feature coming soon!");
-    // Once you have a registration page, uncomment this:
-    // navigate("/register");
+    navigate("/register");
   };
 
   return (
