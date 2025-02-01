@@ -5,13 +5,13 @@ import { Button } from "@/components/ui/button";
 
 const Index = () => {
   return (
-    <div className="min-h-screen w-full flex flex-col md:flex-row items-center justify-center p-6 relative bg-white">
+    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center p-6 relative overflow-hidden">
       <WaveBackground />
       
       {/* Left Side */}
       <div className="md:w-1/2 space-y-6 text-center md:text-left z-10">
         <Logo />
-        <h1 className="font-heading font-bold text-4xl md:text-5xl lg:text-6xl text-gray-900">
+        <h1 className="font-heading font-bold text-4xl md:text-5xl lg:text-6xl">
           Master Your Money,{" "}
           <span className="bg-clip-text text-transparent bg-primary-gradient">
             One Gem at a Time!
